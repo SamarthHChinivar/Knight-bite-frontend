@@ -1,0 +1,73 @@
+body{
+  background-image: url("./background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo{
+  height: 50px;
+  width:150px;
+}
+
+nav ul{
+  margin-left: 70%;
+  margin-top: -3%;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav-list{
+  display: fixed;
+}
+
+button{
+  padding: 15px;
+}
+
+#heading{
+  color: white;
+  text-align: center;
+  margin-top: 10.5%;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#ordButton button{
+  background-color: red;
+  margin-left:47%;
+  padding: 15px 30px;
+}
+
+#ordButton a{
+  text-decoration: none;
+  color: white;
+}
+
+#or{
+  color: white;
+  text-align: center;
+  margin-top: -1.5%;
+  margin-left: 1.8%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.store{
+  height: 50px;
+  width: 175px;
+}
+
+#play{
+  margin-left: 40%;
+  margin-right: 2%;
+}
