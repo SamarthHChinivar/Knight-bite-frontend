@@ -1,4 +1,9 @@
-body{
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#home{
   background-image: url("./background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,6 +12,14 @@ body{
 #logo{
   height: 50px;
   width:150px;
+}
+
+nav{
+  display: fixed;
+}
+
+nav:hover{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul{
@@ -23,9 +36,13 @@ nav a{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#nav-list{
-  display: fixed;
+nav a:hover{
+  color: red;
 }
+
+/* #nav-list{
+  display: fixed;
+} */
 
 button{
   padding: 15px;
@@ -34,7 +51,7 @@ button{
 #heading{
   color: white;
   text-align: center;
-  margin-top: 10.5%;
+  margin-top: 11.5%;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 45px;
@@ -44,7 +61,10 @@ button{
 #ordButton button{
   background-color: red;
   margin-left:47%;
+  margin-top: 4%;
   padding: 15px 30px;
+  border-radius: 10%;
+  border: none;
 }
 
 #ordButton a{
@@ -55,9 +75,9 @@ button{
 #or{
   color: white;
   text-align: center;
-  margin-top: -1.5%;
+  margin-top: 2%;
   margin-left: 1.8%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -65,9 +85,15 @@ button{
 .store{
   height: 50px;
   width: 175px;
+  margin-top: 2%;
+  margin-bottom:12%;
+}
+
+.store:hover{
+  transform: scale(0.95);
 }
 
 #play{
-  margin-left: 40%;
+  margin-left: 38%;
   margin-right: 2%;
 }
