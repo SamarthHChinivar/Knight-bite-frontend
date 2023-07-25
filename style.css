@@ -207,5 +207,58 @@ button{
 
 #logos img{
   margin-left: 2%;
-  margin-bottom: 4%;
+  margin-bottom: 3%;
+  margin-top: 4%;
+}
+
+#connect-details{
+  margin-left: 4%;
+}
+
+#contact-us h3{
+  margin-left: 0.5%;
+  margin-bottom: 3%;
+  font-size: 45px;
+  text-align: center;
+}
+
+#social-media h3{
+  margin-left: 0.5%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  font-size: 45px;
+  text-align: center;
+}
+
+#social-media-details{
+  margin-left: 27.5%;
+}
+
+#social-media-details img{
+  margin-left: 4%;
+}
+
+.contact-us-details{
+  display: flex;
+  flex-direction: row;
+  margin-left: 32.5%;
+}
+
+.contact-us-details p{
+  margin-right: 5%;
+  margin-top: 1%;
+  padding-left: 7.5px;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.844);
+}
+
+footer{
+  background-color: rgba(238, 21, 227, 0.832);
+  color: white;
+  padding: 1% 0;
+
+  text-align: center;
 }
