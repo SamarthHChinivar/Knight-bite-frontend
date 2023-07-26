@@ -28,10 +28,10 @@ nav ul{
 nav a{
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 500;
   margin-left: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:hover{
@@ -191,6 +191,16 @@ button{
   font-weight: 700;
 }
 
+#chatbot{
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+#chatbot:hover{
+  transform: scale(1.1);
+}
+
 #heading3{
   color: rgba(2, 1, 1, 0.864);
   text-align: center;
@@ -207,12 +217,20 @@ button{
 
 #logos img{
   margin-left: 2%;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
   margin-top: 4%;
+}
+
+#logos img:hover{
+  transform: scale(1.25);
 }
 
 #connect-details{
   margin-left: 4%;
+}
+
+.footer-item h3{
+  margin-bottom: 3%;
 }
 
 #contact-us h3{
@@ -222,20 +240,28 @@ button{
   text-align: center;
 }
 
+#social-media{
+  margin-left: -45%;
+}
+
 #social-media h3{
-  margin-left: 0.5%;
+  margin-left: 15%;
   margin-bottom: 3%;
-  margin-top: 5%;
-  font-size: 45px;
+  /* margin-top: 5%; */
+  font-size: 40px;
   text-align: center;
 }
 
 #social-media-details{
-  margin-left: 27.5%;
+  margin-left: 32.5%;
 }
 
 #social-media-details img{
   margin-left: 4%;
+}
+
+#social-media-details img:hover{
+  transform: scale(1.1);
 }
 
 .contact-us-details{
@@ -255,10 +281,72 @@ button{
   color: rgba(0, 0, 0, 0.844);
 }
 
-footer{
-  background-color: rgba(238, 21, 227, 0.832);
-  color: white;
-  padding: 1% 0;
+.f1{
+  display: grid;
+  margin: 40px 50px;
+  justify-content: space-around;
+  grid-template-columns: repeat(2,1fr) 2fr;
+  align-items: stretch;
+  column-gap: 20PX;
+  font-weight: 300;
+  font-size: 20px;
+  color: #424242;
+}
 
-  text-align: center;
+.f2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* margin: 20px; */
+}
+
+.msg{
+  background: url("./assets/mail.png");
+  height: 30px;
+  width: 30px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+.msg1{
+  background: url("./assets/phone.png");
+  height: 30px;
+  width: 30px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  margin-right:  20px;
+}
+
+.f3 li{
+  width: fit-content;
+  padding: 10px 5px;
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+.container1{
+  margin-top: 30px;
+  width: 300px;
+  height: 10px;
+  padding: 35px 80px 35px 35px;
+  font-size: 24px;
+  border-radius: 20px;
+}
+.email{
+  position: absolute;
+}
+
+#footer{
+  background-color: rgba(238, 21, 227, 0.832);
+  display: flex;
+  color: white;
+  margin-top: 2%;
+  width: 100%;
+  padding: 1% 0;
+  position: absolute;
+  justify-content: center;
+  font-size: 15px;
+  padding: 2% auto;
 }
